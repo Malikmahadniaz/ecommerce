@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Cart | Ecommerce</title>
+    <link rel="stylesheet" href="Fontawesome.css">
+    <link rel="stylesheet" href="Poppins.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!----------- container ---------->
+
+    <div class="container">
+
+        <!----------- navbar ----------->
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px;"></a>
+            </div>
+            <nav>
+                <ul id="items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="25px" height="25px"></a>
+            <img src="images/menu.png" class="menu" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+
+    <!------  cart items detail  ------>
+
+    <div class="scontainer cart">
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cinfo">
+                        <img src="images/buy-1.jpg">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>Price: 50.00Rs</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>50.00Rs</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cinfo">
+                        <img src="images/buy-2.jpg">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>Price: 75.00Rs</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>75.00Rs</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cinfo">
+                        <img src="images/buy-3.jpg">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>Price: 75.00Rs</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>75.00Rs</td>
+            </tr>
+
+        </table>
+
+        <div class="total">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>200.00Rs</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>35.00Rs</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>235.00Rs</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <!-------- footer ----->
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="fcol1">
+                    <h3>Dowmload Our App</h3>
+                    <p>Download App for Android and Ios mobile phone.</p>
+                    <div class="applogo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+
+                <div class="fcol2">
+                    <img src="images/logo-white.png">
+                    <p>Our Purpose is to sustainably make the pleasure and benefits of sports accesible to the many.</p>
+                </div>
+
+                <div class="fcol3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="fcol4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+            <p class="c">Copyright 2020 - Mahad Malik </p>
+        </div>
+
+    </div>
+
+
+    <!-- js -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
